@@ -1,1 +1,24 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: green;
+}
+
+#cardbody {
+  background-color: white;
+  height: 500px;
+  border-style: outset;
+  border-width: 3px;
+}
+
+#cardNo {
+  font-size: 7rem;
+}
+
+.cardSu {
+  font-size: 6rem;
+}
+
+#bottomRight {
+  transform: rotate(180deg);
+}
