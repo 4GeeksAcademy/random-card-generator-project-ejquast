@@ -29,8 +29,10 @@ window.onload = function() {
   if (builtCardSu === "♥" || builtCardSu === "♦") {
     document.getElementById("cardSuT").style.color = "red";
     document.getElementById("cardSuB").style.color = "red";
+    document.getElementById("cardNo").style.color = "red";
   } else {
     document.getElementById("cardSuT").style.color = "black";
     document.getElementById("cardSuB").style.color = "black";
+    document.getElementById("cardNo").style.color = "black";
   }
 };
